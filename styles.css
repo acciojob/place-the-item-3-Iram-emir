@@ -1,2 +1,11 @@
-
-/* Your CSS Code here. */
+.holder{
+	display:flex;
+	display:wrap;
+	justify-content: space-between;
+}
+.item {
+	flex: 1 0 auto; 
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
